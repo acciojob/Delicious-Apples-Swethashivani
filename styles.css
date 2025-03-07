@@ -1,1 +1,64 @@
 /* your code here */
+body{
+	background-color:#12E37F;
+}
+.product{
+	display:flex;
+	background-color:white
+	
+}
+.photo-container{
+	background-color:white;
+}
+.photo-main{
+	background-color:#B6E942;
+}
+.photo-main > img {
+	width:300px;
+	height:300px;
+}
+.controls{
+	display:flex;
+    justify-content:flex-end;
+	justify-content:space-between;
+	padding:10px;
+}
+.photo-album ul{
+	list-style:none;
+	display:flex;
+	align-content:space-between;
+	justify-content:flex-start;
+	gap:2px;
+}
+.variant ul{
+	list-style:none;
+	display:flex;
+	align-content:space-between;
+	justify-content:flex-start;
+	gap:2px;
+}
+.photo-album li{
+	border:solid 1px;
+}
+h1{
+	padding:0px;
+	margin:0px;
+}
+
+.product__info{
+	padding:20px;
+}
+.price{
+	color:#FE3F41;
+	font-size:40px;
+	padding:30px 0px 30px;
+}
+
+button{
+	background-color:#FE3F41;
+	border:none;
+	border-radius:5px;
+	height:40px;
+	width:150px;
+	color:white;
+}
